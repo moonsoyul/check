@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+  <title>자리 출석</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="re.css">
+</head>
+<body>
+  <div class="board_title">
+    <h3 class="view_badge" style="font-weight:400 !important;"><strong>이동현황</strong></h3>
+  <div>
+  <br>
+  <fieldset name="interest">
+    <form action='a.jsp'>
+    <h1>01</h1>
+    이동 시간<br>
+    <hr>
+    <input type='radio' name='interest' value='오후 면1' />오후 면1<br>
+    <input type='radio' name='interest' value='오후 면2' />오후 면2<br>
+    <input type='radio' name='interest' value='면1' />면1<br>
+    <input type='radio' name='interest' value='면2' />면2<br>
+    <br>
+    <h1>02</h1>
+    이동 장소<br>
+    <hr>
+    <input type='radio' name='interest2' value='대회의실' />대회의실<br>
+    <input type='radio' name='interest2' value='201' />201<br>
+    <input type='radio' name='interest2' value='멀티 1' />멀티 1<br>
+    <input type='radio' name='interest2' value='멀티 2' />멀티 2<br>
+    <br>
+  </form>
+  </fieldset>
+  <br>
+  <a href="#" onclick="location.href='result.html'"><input type="button" onclick="myFunction()" value="확인"/></a >
+</body>
+</html>
